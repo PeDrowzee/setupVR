@@ -1284,7 +1284,6 @@ GameObject:
   - component: {fileID: 1361765422}
   - component: {fileID: 1361765421}
   - component: {fileID: 1361765420}
-  - component: {fileID: 1361765419}
   - component: {fileID: 1361765423}
   m_Layer: 0
   m_Name: RightTeleportRay
@@ -1302,24 +1301,12 @@ Transform:
   m_GameObject: {fileID: 1361765417}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.7994635, y: 2.599654, z: -2.4425685}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1074469945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!210 &1361765419
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361765417}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 5
-  m_SortAtRoot: 0
 --- !u!114 &1361765420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1459,7 +1446,7 @@ MonoBehaviour:
   m_SmoothMovement: 0
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
-  m_Reticle: {fileID: 0}
+  m_Reticle: {fileID: 6109306760037269072, guid: 2c2fa46479e48a94ea3b00705ce63f00, type: 3}
   m_BlockedReticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
   m_StopLineAtSelection: 0
