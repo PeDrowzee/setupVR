@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 1293428713}
   - component: {fileID: 1293428712}
   - component: {fileID: 1293428711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BowlingBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,7 +1676,7 @@ MonoBehaviour:
   m_ConeCastAngle: 6
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
   m_HitClosestOnly: 0
